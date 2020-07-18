@@ -78,7 +78,7 @@ export const SettingForm:React.FC<IGamePanel> = ({gridHeight, gridWidth, saveSet
     const {name, value} = event.target
     setValues(old => ({...old, [name]: Number(value)}))
   }
-  const InputProps = { inputProps: { min: 6, max: 20 }, onChange }
+  const InputProps = { inputProps: { min: 8, max: 20 }, onChange }
   return (
     <div className={classes.settings}>
         <span>Grid Dimensions</span>
