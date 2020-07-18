@@ -212,7 +212,7 @@ export const  GamePanel:React.FC<IGamePanel> = (props) => {
           <IconButton size="small" onClick={resetGame} title="Reset Game">
             <Icon color="primary">refresh</Icon>
           </IconButton>
-          <span>Mines: {props.gridMines } |Grid: {props.gridHeight}X{props.gridWidth}</span>
+          <span>Mines: {props.gridMines } | Grid: {props.gridHeight}X{props.gridWidth}</span>
           <IconButton size="small" onClick={() => toggleShowSettings(!showSettings)} title="Settings">
             <Icon color="primary">settings</Icon>
           </IconButton>
